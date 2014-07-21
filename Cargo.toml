@@ -1,0 +1,15 @@
+[package]
+
+name = "gcd"
+version = "0.1.0"
+authors = ["Tom Jakubowski <tom@crystae.net>"]
+
+[[lib]]
+
+name = "gcd"
+path = "src/gcd.rs"
+
+[[example]]
+
+name = "n"
+path = "examples/n.rs"
